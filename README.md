@@ -4,7 +4,6 @@ QPMLはより手軽に、より高速にプロトタイプの作成をサポー�
 
 ## 基本機能(草案)
 
-- [HTML5 Boilerplate](http://html5boilerplate.com/)をベースに
 - [Twitter Boostrap](http://twitter.github.com/bootstrap/)にあるUI群をモジュールとして実装
 - [Stylus](http://learnboost.github.com/stylus/)を利用
 - [Components](http://tjholowaychuk.com/post/27984551477/components)ライクな構造とモジュール群の管理、拡張
@@ -47,19 +46,10 @@ index.jade マスターファイル
 docs/ スタイルガイド用(StyleDocco)
 package.json Grunt.jsなどnode.jsパッケージ用メタファイル
 Gruntfile.js Grunt.js用ファイル(0.4.x系)
+config.json Jadeが読み込む設定ファイル
 .gitignore git用
 readme.md 本ファイル
 ```
-
-## ブランチモデル
-
-ProtoJadeではブランチを利用し、利用シーンに合わせて最適なプロトタイプファイルを提供します:
-
-- master → PC向け
-- mobile → スマートフォン向け
-- rwd → レスポンシブウェブデザイン向け
-
-上記以外のブランチは開発用となります。
 
 ## マイルストーン
 
